@@ -26,8 +26,6 @@ print(f"You are {age} years old.")
 print(f"You are buying {quantity} items.")
 print(f"Your class has {number_if_students} students.")
 
-'''
-
 #Float
 price = 10.99
 gpa = 3.2
@@ -58,3 +56,32 @@ if is_online:
     print("You are online")
 else:
     print("You are offline")
+'''
+# Typecasting = the process of converting variable's data type from one to another 
+#               str(), int(), float(), bool()
+
+name = "Yehan"
+age = 20
+gpa = 3.5
+is_student = True
+
+print(type(name))   # string
+print(type(age))    # integer  
+print(type(gpa))    # float
+print(type(is_student)) # boolean
+
+gpa = int(gpa)
+print(f"GPA - {gpa}")
+
+print(type(gpa))
+
+age = float(age)
+print(age)
+print(f"Age: {age} and Type:{type(age)}") # 20.0 , float
+age = str(age)  
+print(age)  #20.0   
+print(type(age))    # str
+
+print(bool(name))  #True
+name = ""
+print(bool(name)) #False
