@@ -56,7 +56,7 @@ if is_online:
     print("You are online")
 else:
     print("You are offline")
-'''
+
 # Typecasting = the process of converting variable's data type from one to another 
 #               str(), int(), float(), bool()
 
@@ -85,3 +85,24 @@ print(type(age))    # str
 print(bool(name))  #True
 name = ""
 print(bool(name)) #False
+
+'''
+
+# input() = this is a function that user to enter data by user as string
+
+name = input("What is your name?: ")
+age = input("How old are you?: ")
+
+print(f"Hello {name}")
+print("HAPPY BIRTHDAY !!!")
+print(f"You are {age} years old.")
+
+# method 1
+age = int(age)
+age += 1
+print(age)
+
+# method 2
+age = int(input("Enter your age: "))
+
+
