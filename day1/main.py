@@ -86,8 +86,6 @@ print(bool(name))  #True
 name = ""
 print(bool(name)) #False
 
-'''
-
 # input() = this is a function that user to enter data by user as string
 
 name = input("What is your name?: ")
@@ -105,4 +103,11 @@ print(age)
 # method 2
 age = int(input("Enter your age: "))
 
+'''
 
+# Exercise 1 - rectangle area calc
+
+length = float(input("Enter the length(cm): "))
+width = float(input("Enter the width(cm): "))
+area = length * width
+print(f"Area of rectangle is {area} cm².")
