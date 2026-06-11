@@ -103,7 +103,6 @@ print(age)
 # method 2
 age = int(input("Enter your age: "))
 
-'''
 
 # Exercise 1 - rectangle area calc
 
@@ -111,3 +110,16 @@ length = float(input("Enter the length(cm): "))
 width = float(input("Enter the width(cm): "))
 area = length * width
 print(f"Area of rectangle is {area} cm².")
+
+'''
+
+# Excercise 2 - shoping cart program
+
+item = input("What item whould you like to buy?: ")
+price = float(input("What is the price of one item($)?:"))
+quantity = int(input("How many would you like?: "))
+
+total = price * quantity
+
+print(f"You bought {quantity} {item}/s ")
+print(f"Total is ${total}.")
