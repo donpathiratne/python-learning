@@ -111,7 +111,6 @@ width = float(input("Enter the width(cm): "))
 area = length * width
 print(f"Area of rectangle is {area} cm².")
 
-'''
 
 # Excercise 2 - shoping cart program
 
@@ -123,3 +122,21 @@ total = price * quantity
 
 print(f"You bought {quantity} {item}/s ")
 print(f"Total is ${total}.")
+
+'''
+
+# mini project - Personal Information Card
+# get details from user
+name = input("What is your name?\n")
+age = int(input("What is your age?\n"))
+uni = input("What is your university?\n")
+degree = input("What is your degree?\n")
+
+"""Dispaly part"""
+print("="*50)
+print("PERSONAL INFORMATION")
+print("="*50)
+
+print(f"Name:{name}\nAge:{age}\nUniversity:{uni}\nDegree:{degree}") #print details
+
+print("="*50)
