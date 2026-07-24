@@ -35,4 +35,5 @@ if answer == "power supply unit":
 else:
     print("Wrong")
 
-print("\nYou got "+ str(score) + " questions correct!")
+print("You got "+ str(score) + " questions correct!")
+print("You got "+ str((score/4)*100) + "%.")
